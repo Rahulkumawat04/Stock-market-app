@@ -1,8 +1,53 @@
-body{
-    text-align: center;
+*{
+    --primary-color: rgb(87, 20, 70);
+    --secondary-color: rgb(255, 255, 255);
 }
 
-label, input{
-    display: block ;
+
+body{
+    text-align: center;
     margin: auto;
+    background-image: url("https://i.redd.it/489ohv5xzvf31.jpg");
+    background-repeat: no-repeat;
+    color: white;
+}
+
+h1{
+    display: block;
+}
+
+label{
+    font-size: 1.5rem;
+    text-align: left;
+    padding-top: 1rem;
+}
+
+input{
+    display: block;
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+main{
+    width: 50%;
+    margin: auto;
+}
+
+#submit-btn{
+    margin: 1rem;
+    padding:0.5rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+
+#output-box{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 2rem;
 }
